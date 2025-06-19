@@ -1,0 +1,5 @@
+digraph "Dominator tree for 'test1' function" {
+	label="Dominator tree for 'test1' function";
+
+	Node0x55ad6420dae0 [shape=record,label="{0:\l|  %B = add i32 %A, 0\l  ret i32 %B\l}"];
+}

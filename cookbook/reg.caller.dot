@@ -1,0 +1,12 @@
+digraph "Region Graph for 'caller' function" {
+	label="Region Graph for 'caller' function";
+
+	Node0x565186135880 [shape=record,label="{0:\l|  %A = call i32 @test(i32 123, i32 456)\l  ret i32 %A\l}"];
+	colorscheme = "paired12"
+        subgraph cluster_0x565186134270 {
+          label = "";
+          style = filled;
+          color = 1
+          Node0x565186135880;
+        }
+}
